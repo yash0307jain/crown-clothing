@@ -5,8 +5,8 @@ import "./directory.styles.scss";
 import MenuItem from "../../components/menu-item/menu-item.component";
 
 class Directory extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       sections: [

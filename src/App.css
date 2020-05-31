@@ -1,9 +1,19 @@
-body {
+  body {
   font-family: "Open Sans Condensed";
   padding: 20px 60px;
+  background: rgb(244,243,243);
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+svg#background {
+  position: fixed;
+  bottom: -20px;
+  left: -60px;
+  z-index: -20;
+  width: 120%;
+  height: 120%;
 }
