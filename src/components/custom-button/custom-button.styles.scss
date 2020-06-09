@@ -43,4 +43,9 @@
       border: none;
     }
   }
+
+  &.lessWidth {
+    width: 10vw;
+    margin: 2vh auto;
+  }
 }
