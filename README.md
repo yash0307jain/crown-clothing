@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Heroku Cli commands for deployment
+
+Step 1:
+### `heroku create yashj-crown-clothing --buildpack https://github.com/mars/create-react-app-buildpack.git`
+
+Step 2:
+### `git push heroku master`
+
 ## Available Scripts
 
 In the project directory, you can run:
